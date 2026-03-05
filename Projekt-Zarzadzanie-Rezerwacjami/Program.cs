@@ -1,4 +1,9 @@
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using Projekt_Zarzadzanie_Rezerwacjami.Data;
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddDbContext<Projekt_Zarzadzanie_RezerwacjamiContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("Projekt_Zarzadzanie_RezerwacjamiContext") ?? throw new InvalidOperationException("Connection string 'Projekt_Zarzadzanie_RezerwacjamiContext' not found.")));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
