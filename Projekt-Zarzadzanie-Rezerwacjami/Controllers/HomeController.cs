@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using Projekt_Zarzadzanie_Rezerwacjami.Models;
 using System.Diagnostics;
 
+
 namespace Projekt_Zarzadzanie_Rezerwacjami.Controllers
 {
     public class HomeController : Controller
@@ -12,6 +13,14 @@ namespace Projekt_Zarzadzanie_Rezerwacjami.Controllers
         }
 
         public IActionResult Privacy()
+        {
+            return View();
+        }
+        public IActionResult Admin()
+        {
+            return View();
+        }
+        public IActionResult User()
         {
             return View();
         }
