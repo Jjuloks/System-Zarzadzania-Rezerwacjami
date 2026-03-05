@@ -30,40 +30,36 @@ build_property._RazorSourceGeneratorDebug =
 build_property.EffectiveAnalysisLevelStyle = 10.0
 build_property.EnableCodeStyleSeverity = 
 
+[C:/Users/t.szabuniewicz/Documents/System-Zarzadzania-Rezerwacjami/Projekt-Zarzadzanie-Rezerwacjami/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/t.szabuniewicz/Documents/System-Zarzadzania-Rezerwacjami/Projekt-Zarzadzanie-Rezerwacjami/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-[C:/Users/t.szabuniewicz/Documents/System-Zarzadzania-Rezerwacjami/Projekt-Zarzadzanie-Rezerwacjami/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
-=======
-=======
-[C:/Users/j.oksimowicz/source/repos/Projekt-Zarzadzanie-Rezerwacjami/Projekt-Zarzadzanie-Rezerwacjami/Views/Login/Index.cshtml]
+[C:/Users/t.szabuniewicz/Documents/System-Zarzadzania-Rezerwacjami/Projekt-Zarzadzanie-Rezerwacjami/Views/Login/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
->>>>>>> origin/main
-[C:/Users/j.oksimowicz/source/repos/Projekt-Zarzadzanie-Rezerwacjami/Projekt-Zarzadzanie-Rezerwacjami/Views/Rezerwacje/Create.cshtml]
+[C:/Users/t.szabuniewicz/Documents/System-Zarzadzania-Rezerwacjami/Projekt-Zarzadzanie-Rezerwacjami/Views/Rezerwacje/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV6ZXJ3YWNqZVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/j.oksimowicz/source/repos/Projekt-Zarzadzanie-Rezerwacjami/Projekt-Zarzadzanie-Rezerwacjami/Views/Rezerwacje/Delete.cshtml]
+[C:/Users/t.szabuniewicz/Documents/System-Zarzadzania-Rezerwacjami/Projekt-Zarzadzanie-Rezerwacjami/Views/Rezerwacje/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV6ZXJ3YWNqZVxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/j.oksimowicz/source/repos/Projekt-Zarzadzanie-Rezerwacjami/Projekt-Zarzadzanie-Rezerwacjami/Views/Rezerwacje/Details.cshtml]
+[C:/Users/t.szabuniewicz/Documents/System-Zarzadzania-Rezerwacjami/Projekt-Zarzadzanie-Rezerwacjami/Views/Rezerwacje/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV6ZXJ3YWNqZVxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/j.oksimowicz/source/repos/Projekt-Zarzadzanie-Rezerwacjami/Projekt-Zarzadzanie-Rezerwacjami/Views/Rezerwacje/Edit.cshtml]
+[C:/Users/t.szabuniewicz/Documents/System-Zarzadzania-Rezerwacjami/Projekt-Zarzadzanie-Rezerwacjami/Views/Rezerwacje/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV6ZXJ3YWNqZVxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/j.oksimowicz/source/repos/Projekt-Zarzadzanie-Rezerwacjami/Projekt-Zarzadzanie-Rezerwacjami/Views/Rezerwacje/Index.cshtml]
+[C:/Users/t.szabuniewicz/Documents/System-Zarzadzania-Rezerwacjami/Projekt-Zarzadzanie-Rezerwacjami/Views/Rezerwacje/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV6ZXJ3YWNqZVxJbmRleC5jc2h0bWw=
->>>>>>> origin/main
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/t.szabuniewicz/Documents/System-Zarzadzania-Rezerwacjami/Projekt-Zarzadzanie-Rezerwacjami/Views/Shared/Error.cshtml]
