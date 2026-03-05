@@ -1,12 +1,16 @@
 {
   "version": 2,
 <<<<<<< HEAD
+<<<<<<< HEAD
   "dgSpecHash": "hM91qwdB9k4=",
   "success": true,
   "projectFilePath": "C:\\Users\\t.szabuniewicz\\Documents\\System-Zarzadzania-Rezerwacjami\\Projekt-Zarzadzanie-Rezerwacjami\\Projekt-Zarzadzanie-Rezerwacjami.csproj",
   "expectedPackageFiles": [],
 =======
   "dgSpecHash": "9vz7gzwnvYI=",
+=======
+  "dgSpecHash": "OMl3lbn/XuM=",
+>>>>>>> origin/main
   "success": true,
   "projectFilePath": "C:\\Users\\j.oksimowicz\\source\\repos\\Projekt-Zarzadzanie-Rezerwacjami\\Projekt-Zarzadzanie-Rezerwacjami\\Projekt-Zarzadzanie-Rezerwacjami.csproj",
   "expectedPackageFiles": [
