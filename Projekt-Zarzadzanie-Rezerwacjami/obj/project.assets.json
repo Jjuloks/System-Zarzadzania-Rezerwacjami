@@ -8,23 +8,23 @@
     "net10.0": []
   },
   "packageFolders": {
-    "C:\\Users\\j.oksimowicz\\.nuget\\packages\\": {},
+    "C:\\Users\\t.szabuniewicz\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\j.oksimowicz\\source\\repos\\Projekt-Zarzadzanie-Rezerwacjami\\Projekt-Zarzadzanie-Rezerwacjami\\Projekt-Zarzadzanie-Rezerwacjami.csproj",
+      "projectUniqueName": "C:\\Users\\t.szabuniewicz\\Documents\\System-Zarzadzania-Rezerwacjami\\Projekt-Zarzadzanie-Rezerwacjami\\Projekt-Zarzadzanie-Rezerwacjami.csproj",
       "projectName": "Projekt-Zarzadzanie-Rezerwacjami",
-      "projectPath": "C:\\Users\\j.oksimowicz\\source\\repos\\Projekt-Zarzadzanie-Rezerwacjami\\Projekt-Zarzadzanie-Rezerwacjami\\Projekt-Zarzadzanie-Rezerwacjami.csproj",
-      "packagesPath": "C:\\Users\\j.oksimowicz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\j.oksimowicz\\source\\repos\\Projekt-Zarzadzanie-Rezerwacjami\\Projekt-Zarzadzanie-Rezerwacjami\\obj\\",
+      "projectPath": "C:\\Users\\t.szabuniewicz\\Documents\\System-Zarzadzania-Rezerwacjami\\Projekt-Zarzadzanie-Rezerwacjami\\Projekt-Zarzadzanie-Rezerwacjami.csproj",
+      "packagesPath": "C:\\Users\\t.szabuniewicz\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\t.szabuniewicz\\Documents\\System-Zarzadzania-Rezerwacjami\\Projekt-Zarzadzanie-Rezerwacjami\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\j.oksimowicz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\t.szabuniewicz\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -33,6 +33,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
