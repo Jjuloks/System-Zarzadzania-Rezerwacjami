@@ -13,7 +13,7 @@ namespace Projekt_Zarzadzanie_Rezerwacjami.Controllers
             return View();
         }
 
-        [HttpPost]
+       [HttpPost]
        public IActionResult Logowanie(string login, string password)
         {
             if (login == "admin" && password == "admin")

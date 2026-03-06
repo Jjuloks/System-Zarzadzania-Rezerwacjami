@@ -1,7 +1,7 @@
 ﻿@model Projekt_Zarzadzanie_Rezerwacjami.Models.Rezerwacja
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Dodaj Rezerwacje";
 }
 
 <h1>Create</h1>
@@ -34,7 +34,7 @@
             </div>
             <div class="form-group form-check">
                 <label class="form-check-label">
-                    <input class="form-check-input" asp-for="IsExclusive" /> @Html.DisplayNameFor(model => model.IsExclusive)
+                    <input class="form-check-input" asp-for="IsExclusive" /> @Html.DisplayName("Workroom with TV")
                 </label>
             </div>
             <div class="form-group">

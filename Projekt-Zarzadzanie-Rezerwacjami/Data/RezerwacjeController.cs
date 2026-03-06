@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.CodeAnalysis.CSharp.Syntax;
 using Microsoft.EntityFrameworkCore;
 using Projekt_Zarzadzanie_Rezerwacjami.Models;
 
@@ -17,13 +18,24 @@ namespace Projekt_Zarzadzanie_Rezerwacjami.Data
         {
             _context = context;
         }
-
+       
         // GET: Rezerwacje
         public async Task<IActionResult> Index()
         {
+
             return View(await _context.Rezerwacja.ToListAsync());
         }
 
+        public async Task<IActionResult> Today()
+        {
+            var today_Date = DateTime.Today;
+
+            var rezerwacjeNaDzis = await _context.Rezerwacja
+                .Where(x => x.ReservationDate.Date == today_Date)
+                .ToListAsync();
+
+            return View("Index", rezerwacjeNaDzis);
+        }
         // GET: Rezerwacje/Details/5
         public async Task<IActionResult> Details(int? id)
         {

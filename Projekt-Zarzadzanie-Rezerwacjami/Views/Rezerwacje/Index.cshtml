@@ -1,13 +1,16 @@
 ﻿@model IEnumerable<Projekt_Zarzadzanie_Rezerwacjami.Models.Rezerwacja>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Admin";
 }
 
-<h1>Index</h1>
-
+<h1 class="text-center">Witaj w panelu Admina ! Zarazdzaj rezerwacjami</h1>
+<p>  
+    <a asp-action="Create">Dodaj nowa rezerwacje</a>
+</p>
 <p>
-    <a asp-action="Create">Create New</a>
+    <label>Pokaz rezerwacje tylko z dzis</label>
+    <a asp-controller="Rezerwacje" asp-action="Today">Dzisiejsze</a>
 </p>
 <table class="table">
     <thead>

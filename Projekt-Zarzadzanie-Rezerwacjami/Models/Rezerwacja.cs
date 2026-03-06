@@ -1,4 +1,5 @@
 ﻿
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 namespace Projekt_Zarzadzanie_Rezerwacjami.Models
   
@@ -8,6 +9,8 @@ namespace Projekt_Zarzadzanie_Rezerwacjami.Models
         public int Id { get; set; }
         public string? Name { get; set; }
 
+
+        [DisplayName("Reservation Date")]
         public DateTime ReservationDate { get; set; }
         [DataType(DataType.Date)]
 
