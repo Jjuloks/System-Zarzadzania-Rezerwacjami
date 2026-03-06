@@ -19,9 +19,7 @@ C:\Users\j.oksimowicz\source\repos\Projekt-Zarzadzanie-Rezerwacjami\Projekt-Zarz
 C:\Users\j.oksimowicz\source\repos\Projekt-Zarzadzanie-Rezerwacjami\Projekt-Zarzadzanie-Rezerwacjami\obj\Debug\net10.0\rjimswa.dswa.cache.json
 C:\Users\j.oksimowicz\source\repos\Projekt-Zarzadzanie-Rezerwacjami\Projekt-Zarzadzanie-Rezerwacjami\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
 C:\Users\j.oksimowicz\source\repos\Projekt-Zarzadzanie-Rezerwacjami\Projekt-Zarzadzanie-Rezerwacjami\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
-C:\Users\j.oksimowicz\source\repos\Projekt-Zarzadzanie-Rezerwacjami\Projekt-Zarzadzanie-Rezerwacjami\obj\Debug\net10.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\j.oksimowicz\source\repos\Projekt-Zarzadzanie-Rezerwacjami\Projekt-Zarzadzanie-Rezerwacjami\obj\Debug\net10.0\scopedcss\bundle\Projekt-Zarzadzanie-Rezerwacjami.styles.css
-C:\Users\j.oksimowicz\source\repos\Projekt-Zarzadzanie-Rezerwacjami\Projekt-Zarzadzanie-Rezerwacjami\obj\Debug\net10.0\scopedcss\projectbundle\Projekt-Zarzadzanie-Rezerwacjami.bundle.scp.css
 C:\Users\j.oksimowicz\source\repos\Projekt-Zarzadzanie-Rezerwacjami\Projekt-Zarzadzanie-Rezerwacjami\obj\Debug\net10.0\compressed\wjhpvb139m-{0}-b9sayid5wm-b9sayid5wm.gz
 C:\Users\j.oksimowicz\source\repos\Projekt-Zarzadzanie-Rezerwacjami\Projekt-Zarzadzanie-Rezerwacjami\obj\Debug\net10.0\compressed\a9oy5gaygt-{0}-61n19gt1b8-61n19gt1b8.gz
 C:\Users\j.oksimowicz\source\repos\Projekt-Zarzadzanie-Rezerwacjami\Projekt-Zarzadzanie-Rezerwacjami\obj\Debug\net10.0\compressed\ryn2omqh5z-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
@@ -84,8 +82,6 @@ C:\Users\j.oksimowicz\source\repos\Projekt-Zarzadzanie-Rezerwacjami\Projekt-Zarz
 C:\Users\j.oksimowicz\source\repos\Projekt-Zarzadzanie-Rezerwacjami\Projekt-Zarzadzanie-Rezerwacjami\obj\Debug\net10.0\compressed\cu191u8gy9-{0}-9vr69e8ynj-9vr69e8ynj.gz
 C:\Users\j.oksimowicz\source\repos\Projekt-Zarzadzanie-Rezerwacjami\Projekt-Zarzadzanie-Rezerwacjami\obj\Debug\net10.0\compressed\c9exiilf09-{0}-87fc7y1x7t-87fc7y1x7t.gz
 C:\Users\j.oksimowicz\source\repos\Projekt-Zarzadzanie-Rezerwacjami\Projekt-Zarzadzanie-Rezerwacjami\obj\Debug\net10.0\compressed\d7qieoes5v-{0}-mlv21k5csn-mlv21k5csn.gz
-C:\Users\j.oksimowicz\source\repos\Projekt-Zarzadzanie-Rezerwacjami\Projekt-Zarzadzanie-Rezerwacjami\obj\Debug\net10.0\compressed\so6v0futau-{0}-xvneolz9dw-xvneolz9dw.gz
-C:\Users\j.oksimowicz\source\repos\Projekt-Zarzadzanie-Rezerwacjami\Projekt-Zarzadzanie-Rezerwacjami\obj\Debug\net10.0\compressed\mwt4cfqeiq-{0}-xvneolz9dw-xvneolz9dw.gz
 C:\Users\j.oksimowicz\source\repos\Projekt-Zarzadzanie-Rezerwacjami\Projekt-Zarzadzanie-Rezerwacjami\obj\Debug\net10.0\staticwebassets.build.json
 C:\Users\j.oksimowicz\source\repos\Projekt-Zarzadzanie-Rezerwacjami\Projekt-Zarzadzanie-Rezerwacjami\obj\Debug\net10.0\staticwebassets.build.json.cache
 C:\Users\j.oksimowicz\source\repos\Projekt-Zarzadzanie-Rezerwacjami\Projekt-Zarzadzanie-Rezerwacjami\obj\Debug\net10.0\staticwebassets.development.json

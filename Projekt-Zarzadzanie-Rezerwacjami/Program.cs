@@ -10,6 +10,7 @@ builder.Services.AddDbContext<Projekt_Zarzadzanie_RezerwacjamiContext>(options =
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
+app.UseStaticFiles();
 using (var scope = app.Services.CreateScope())
 {
     var services = scope.ServiceProvider;
