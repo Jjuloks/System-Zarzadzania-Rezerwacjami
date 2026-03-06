@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Azure.Messaging;
+using Microsoft.AspNetCore.Components.Forms;
+using Microsoft.AspNetCore.Mvc;
 
 using Projekt_Zarzadzanie_Rezerwacjami.Models;
 
@@ -18,16 +20,13 @@ namespace Projekt_Zarzadzanie_Rezerwacjami.Controllers
             {
                 return RedirectToAction("","Rezerwacje");
             }
-            else if (login == "user" && password == "user")
+            if (login == "user" && password == "user")
             {
                 //Tu do Usera
                 return RedirectToAction("", "Rezerwacje");
             }
-            else
-            {
-                Console.WriteLine("Nieprawidlowwe dane");
-            }
-            return RedirectToAction("Index");
+            ViewBag.Error = "Niepoprawny dane logowania";
+            return View("Index");
         }
         public IActionResult Admin()
         {

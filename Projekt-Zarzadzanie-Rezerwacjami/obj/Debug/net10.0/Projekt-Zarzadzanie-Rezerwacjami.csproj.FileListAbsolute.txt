@@ -96,7 +96,6 @@ C:\Users\j.oksimowicz\source\repos\Projekt-Zarzadzanie-Rezerwacjami\Projekt-Zarz
 C:\Users\j.oksimowicz\source\repos\Projekt-Zarzadzanie-Rezerwacjami\Projekt-Zarzadzanie-Rezerwacjami\obj\Debug\net10.0\Projekt-Zarzadzanie-Rezerwacjami.pdb
 C:\Users\j.oksimowicz\source\repos\Projekt-Zarzadzanie-Rezerwacjami\Projekt-Zarzadzanie-Rezerwacjami\obj\Debug\net10.0\Projekt-Zarzadzanie-Rezerwacjami.genruntimeconfig.cache
 C:\Users\j.oksimowicz\source\repos\Projekt-Zarzadzanie-Rezerwacjami\Projekt-Zarzadzanie-Rezerwacjami\obj\Debug\net10.0\ref\Projekt-Zarzadzanie-Rezerwacjami.dll
-C:\Users\j.oksimowicz\source\repos\Projekt-Zarzadzanie-Rezerwacjami\Projekt-Zarzadzanie-Rezerwacjami\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
 C:\Users\j.oksimowicz\source\repos\Projekt-Zarzadzanie-Rezerwacjami\Projekt-Zarzadzanie-Rezerwacjami\bin\Debug\net10.0\Azure.Core.dll
 C:\Users\j.oksimowicz\source\repos\Projekt-Zarzadzanie-Rezerwacjami\Projekt-Zarzadzanie-Rezerwacjami\bin\Debug\net10.0\Azure.Identity.dll
 C:\Users\j.oksimowicz\source\repos\Projekt-Zarzadzanie-Rezerwacjami\Projekt-Zarzadzanie-Rezerwacjami\bin\Debug\net10.0\Humanizer.dll
@@ -338,3 +337,4 @@ C:\Users\j.oksimowicz\source\repos\Projekt-Zarzadzanie-Rezerwacjami\Projekt-Zarz
 C:\Users\j.oksimowicz\source\repos\Projekt-Zarzadzanie-Rezerwacjami\Projekt-Zarzadzanie-Rezerwacjami\bin\Debug\net10.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\j.oksimowicz\source\repos\Projekt-Zarzadzanie-Rezerwacjami\Projekt-Zarzadzanie-Rezerwacjami\obj\Debug\net10.0\Projekt-Zarzadzanie-Rezerwacjami.csproj.AssemblyReference.cache
 C:\Users\j.oksimowicz\source\repos\Projekt-Zarzadzanie-Rezerwacjami\Projekt-Zarzadzanie-Rezerwacjami\obj\Debug\net10.0\Projekt-.380A38AA.Up2Date
+C:\Users\j.oksimowicz\source\repos\Projekt-Zarzadzanie-Rezerwacjami\Projekt-Zarzadzanie-Rezerwacjami\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
