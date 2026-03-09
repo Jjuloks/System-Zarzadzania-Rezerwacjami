@@ -2,30 +2,19 @@
 
 @{
     ViewData["Title"] = "Admin";
-    var isAdminPanel = ViewBag.AdminPanel == true;
 }
 
 <h1 class="text-center">Witaj w panelu Admina ! Zarazdzaj rezerwacjami</h1>
-<p>
-    @if (isAdminPanel)
-    {
-        <a href="/Rezerwacje/Create">Dodaj nowa rezerwacje</a>
-    }
-    else
-    {
-        <a asp-controller="Rezerwacje" asp-action="Create">Dodaj nowa rezerwacje</a>
-    }
+<form method="post" asp-page-handler="LogOut">
+    <button type="submit" class="btn btn-primary">Wyloguj sie</button>
+
+</form>
+<p>  
+    <a asp-action="Create">Dodaj nowa rezerwacje</a>
 </p>
 <p>
-    <h5>Today Reservations</h5>
-    @if (isAdminPanel)
-    {
-        <a href="/Admin-Panel/Rezerwacjie/Today" class="btn btn-primary">Today</a>
-    }
-    else
-    {
-        <a asp-controller="Rezerwacje" asp-action="Today" class="btn btn-primary">Today</a>
-    }
+            <h5>Today Reservations</h5>
+    <a asp-controller="Rezerwacje" asp-action="Today" class="btn btn-primary">Today</a>
 </p>
 <table class="table">
     <thead>
@@ -73,9 +62,9 @@
                 @Html.DisplayFor(modelItem => item.IsExclusive)
             </td>
             <td>
-                <a asp-controller="Rezerwacje" asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-controller="Rezerwacje" asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-controller="Rezerwacje" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
             </td>
         </tr>
 }

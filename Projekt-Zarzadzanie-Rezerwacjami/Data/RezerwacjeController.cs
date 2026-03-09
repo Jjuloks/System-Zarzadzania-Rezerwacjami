@@ -60,6 +60,10 @@ namespace Projekt_Zarzadzanie_Rezerwacjami.Data
         {
             return View();
         }
+        public IActionResult OnPostLogOut()
+        {
+            return View("Login","");
+        }
 
         // POST: Rezerwacje/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
