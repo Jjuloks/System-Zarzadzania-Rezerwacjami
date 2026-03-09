@@ -12,18 +12,18 @@ namespace Projekt_Zarzadzanie_Rezerwacjami.Controllers
         {
             return View();
         }
-   
+
        [HttpPost]
        public IActionResult Logowanie(string login, string password)
         {
             if (login == "admin" && password == "admin")
             {
-                return RedirectToAction("","Rezerwacje");
+                return RedirectToAction("","Admin-Panel");
             }
             if (login == "user" && password == "user")
             {
                 //Tu do Usera
-                return RedirectToAction("", "User");
+                return RedirectToAction("", "Rezerwacje");
             }
             ViewBag.Error = "Niepoprawny dane logowania";
             return View("Index");

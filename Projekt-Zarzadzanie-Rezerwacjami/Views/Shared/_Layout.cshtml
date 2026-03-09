@@ -32,6 +32,27 @@
             </div>
         </nav>
         </div>
+        <style>
+            .logout-button {
+                float: right;
+                margin-top: -40px;
+                margin-left: -40px;
+            }
+        </style>
+
+        @{
+            var currentController = ViewContext.RouteData.Values["controller"]?.ToString();
+            var currentAction = ViewContext.RouteData.Values["action"]?.ToString();
+            var isLoginPage = string.Equals(currentController, "Login", System.StringComparison.OrdinalIgnoreCase)
+                              && string.Equals(currentAction, "Index", System.StringComparison.OrdinalIgnoreCase);
+        }
+
+        @if (!isLoginPage)
+        {
+            <form method="get" action="/Login" class="logout-button">
+                <button type="submit" class="btn btn-outline-secondary">Wyloguj</button>
+            </form>
+        }
     </header>
     <div class="container">
         <main role="main" class="pb-3">
