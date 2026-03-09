@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Projekt-Zarzadzanie-Rezerwacjami")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d087aeb32323edfc60ad1394dd379a3f4ff78ee7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b66adf9b42c8c8172650798bda5459ad140116a8")]
 [assembly: System.Reflection.AssemblyProductAttribute("Projekt-Zarzadzanie-Rezerwacjami")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Projekt-Zarzadzanie-Rezerwacjami")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

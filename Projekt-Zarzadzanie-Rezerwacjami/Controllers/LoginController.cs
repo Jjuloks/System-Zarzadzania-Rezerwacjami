@@ -12,7 +12,7 @@ namespace Projekt_Zarzadzanie_Rezerwacjami.Controllers
         {
             return View();
         }
-
+   
        [HttpPost]
        public IActionResult Logowanie(string login, string password)
         {
@@ -23,7 +23,7 @@ namespace Projekt_Zarzadzanie_Rezerwacjami.Controllers
             if (login == "user" && password == "user")
             {
                 //Tu do Usera
-                return RedirectToAction("", "Rezerwacje");
+                return RedirectToAction("", "User");
             }
             ViewBag.Error = "Niepoprawny dane logowania";
             return View("Index");
