@@ -1,10 +1,18 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using Projekt_Zarzadzanie_Rezerwacjami.Data;
 using Projekt_Zarzadzanie_Rezerwacjami.Models;
 namespace Projekt_Zarzadzanie_Rezerwacjami.Controllers
 {
     public class User : Controller
     {
+        private readonly Projekt_Zarzadzanie_RezerwacjamiContext _context;
+
+        public User(Projekt_Zarzadzanie_RezerwacjamiContext context)
+        {
+            _context = context;
+        }
         // GET: UserController1
         public ActionResult Index()
         {
@@ -28,21 +36,20 @@ namespace Projekt_Zarzadzanie_Rezerwacjami.Controllers
         {
             return View();
         }
-
-        // POST: UserController1/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
+        public async Task<IActionResult> Create([Bind("Id,Name,ReservationDate,Duration,Rozmiar,IsExclusive")] Rezerwacja rezerwacja)
         {
-            try
+            if (ModelState.IsValid)
             {
+                _context.Add(rezerwacja);
+                await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            catch
-            {
-                return View();
-            }
+            return View(rezerwacja);
         }
+        // POST: UserController1/Create
+     
 
         // GET: UserController1/Edit/5
         public ActionResult Edit(int id)
